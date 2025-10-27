@@ -34,6 +34,12 @@ a {
   text-decoration: none;
 }
 
+
+
+h3 {
+  color: #C41230;
+  margin-bottom: 0;
+}
 /* =======================================
    Sidebar
 ======================================= */
@@ -117,13 +123,13 @@ a {
 }
 
 .vnav li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .vnav a {
   display: block;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 300;
   transition: color 0.2s ease;
 }
@@ -140,7 +146,7 @@ a {
 }
 
 .content {
-  max-width: 56rem;
+  /* max-width: 56rem; */
   margin-left: clamp(12rem, 22vw, 16rem);
   margin-right: 2rem;
   padding: 2rem 2rem 4rem;
@@ -200,19 +206,27 @@ a {
   text-decoration: underline;
 }
 
+.award {
+  color: #FF0000;
+}
+.description {
+  font-size: 15px;
+  color: #000000
+}
+
 /* =======================================
    Media blocks (right aligned)
 ======================================= */
 .right-media {
   flex-shrink: 0;
-  width: 140px;
-  height: 140px;
+  width: 36%;
+  /* height: 140px; */
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   border: 1px solid #e1e5e9;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .research-card .right-media {
@@ -354,7 +368,7 @@ a {
 
 .pub-link-slides {
   --link-color: #ea580c;
-  --link-bg: #fed7aa;
+  --link-bg: #f8d9b6;
   --link-border: #fdba74;
   --link-hover-color: #c2410c;
   --link-hover-bg: #fdba74;
@@ -365,9 +379,9 @@ a {
   --link-color: #C41230;
   --link-bg: #fbe8eb;
   --link-border: #e594a1;
-  --link-hover-color: #C41230;
-  --link-hover-bg: #fbe8eb;
-  --link-hover-border: #e594a1;
+  --link-hover-color: #d60628;
+  --link-hover-bg: #f7cbd1;
+  --link-hover-border: #f47a8e;
 }
 
 .pub-link-cite {
