@@ -172,7 +172,7 @@ h3 {
    Cards
 ======================================= */
 .card {
-  font-style: normal;
+  /* font-style: normal; */
   display: flex;
   gap: 1.5rem;
   align-items: center;
@@ -212,7 +212,7 @@ h3 {
 }
 .description {
   font-size: 15px;
-  color: #000000
+  color: #000000;
 }
 
 /* =======================================
